@@ -68,30 +68,30 @@
   const submitButton = document.getElementById("submit");
   const myQuestions = [
     {
-      question: "Who is the strongest?",
+      question: "Who is the current All-time MLB homerun leader?",
       answers: {
-        a: "Superman",
-        b: "The Terminator",
-        c: "Waluigi, obviously"
+        a: "Babe Ruth",
+        b: "Hank Aaron",
+        c: "Barry Bonds"
       },
       correctAnswer: "c"
     },
     {
-      question: "What is the best site ever created?",
+      question: "When was the last time the Los Angeles Dodgers won a World Series?",
       answers: {
-        a: "SitePoint",
-        b: "Simple Steps Code",
-        c: "Trick question; they're both the best"
+        a: "1988",
+        b: "1968",
+        c: "2018"
       },
-      correctAnswer: "c"
+      correctAnswer: "a"
     },
     {
-      question: "Where is Waldo really?",
+      question: "How many Hits does Ichiro have in the MLB?",
       answers: {
-        a: "Antarctica",
-        b: "Exploring the Pacific Ocean",
-        c: "Sitting in a tree",
-        d: "Minding his own business, so stop asking"
+        a: "4127",
+        b: "3000",
+        c: "2999",
+        d: "3089"
       },
       correctAnswer: "d"
     }
