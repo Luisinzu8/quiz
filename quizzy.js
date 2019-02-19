@@ -94,7 +94,17 @@
         d: "3089"
       },
       correctAnswer: "d"
-    }
+    },
+    {
+    	question: "Who is the All-time stolen base leader in the MLB?",
+    	answers: {
+    	a: "Juan Pierre",
+    	b: "Ricky Henderson",
+    	c: "Tim Raines",
+    	d: "Lou Brock"
+      },
+      correctAnswer: "b"
+    },
   ];
 
   // display quiz right away
