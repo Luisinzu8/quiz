@@ -61,6 +61,11 @@
 
     // show number of correct answers out of total
     resultsContainer.innerHTML = `${numCorrect} out of ${myQuestions.length}`;
+    if (numCorrect === myQuestions.correctAnswer) {
+    	console.log('great!!')
+    } else {
+    	undefined
+    }
   }
 
   const quizContainer = document.getElementById("quiz");
