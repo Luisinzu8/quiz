@@ -1,3 +1,15 @@
+function myFunction() {
+  var txt;
+  var person = prompt("Please enter your name:", "name");
+  if (person == null || person == "") {
+    txt = "User cancelled the prompt.";
+  } else {
+    txt = "Hello " + person + "! Good Luck!";
+  }
+  document.getElementById("hello").innerHTML = txt;
+}
+
+
 (function() {
   function buildQuiz() {
     // we'll need a place to store the HTML output
