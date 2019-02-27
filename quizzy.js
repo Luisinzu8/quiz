@@ -20,7 +20,7 @@ var timeoutHandle;
                 timeoutHandle = setTimeout(tick, 1000);
             } else {
                 if (minutes >= 1) {
-                    // countdown(mins-1);   never reach “00″ issue solved:Contributed by Victor Streithorst
+                    // countdown(mins-1);   never reach “00″
                     setTimeout(function () {
                         countdown(minutes - 1, 59);
                     }, 1000);
