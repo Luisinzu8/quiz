@@ -8,7 +8,6 @@ body{
 #timer {
     color: red;
     font-size: 20px;
-    text-align: right;
 }
 .question{
     font-weight: 600;
