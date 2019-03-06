@@ -6,7 +6,10 @@ body{
     text-align: center;
 }
 #quiz{
-    background-color: #ff0000;
+    width: 70%;
+    height: 100%;
+    margin: 50px auto;
+    background: linear-gradient(35deg, #ccffff, #ffcccc);;
 }
 #timer {
     color: red;
