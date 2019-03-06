@@ -5,6 +5,9 @@ body{
     background-color: #000;
     text-align: center;
 }
+#quiz{
+    background-color: #ff0000;
+}
 #timer {
     color: red;
     font-size: 20px;
