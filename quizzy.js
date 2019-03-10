@@ -1,22 +1,21 @@
-function myFunction() {
-  var txt;
-  var person = prompt("Please enter your name:", "name");
-  if (person == null || person == "") {
-    txt = "User cancelled the prompt.";
-  } else {
-    txt = "Hello " + person + "! Good Luck!";
-  }
-  document.getElementById("hello").innerHTML = txt;
-}
-
-var time = setInterval(function() {
-  myTimer()
-}, 1000);
-var d = 10;
-
-function myTimer() {
-  document.getElementById("timer").innerHTML = d--;
-}
+function startTimer(m,s)
+      {
+        document.getElementById('timer').innerHTML= m+":"+s;
+        if (s==0)
+        {
+          if (m == 0)
+          {
+            return;
+          }
+          else if (m != 0)
+          {
+            m = m-1;
+            s = 60;
+          }
+        }
+        s = s-1;
+        t=setTimeout(function(){startTimer(m,s)},1000);
+      }
 
 (function() {
   function buildQuiz() {

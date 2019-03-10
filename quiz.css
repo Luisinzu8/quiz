@@ -5,6 +5,9 @@ body{
     background-color: #000;
     text-align: center;
 }
+li {
+    list-style-type: none;
+}
 a{
     color: white;
     text-align: center;
