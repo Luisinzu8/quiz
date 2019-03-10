@@ -9,7 +9,7 @@ function myFunction() {
   document.getElementById("hello").innerHTML = txt;
 }
 
-var myVar = setInterval(function() {
+var time = setInterval(function() {
   myTimer()
 }, 1000);
 var d = 10;
