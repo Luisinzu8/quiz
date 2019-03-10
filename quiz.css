@@ -5,6 +5,14 @@ body{
     background-color: #000;
     text-align: center;
 }
+a{
+    color: white;
+    text-align: center;
+    margin-right: 40px;
+}
+a:hover {
+    color: red;
+}
 #quiz{
     width: 70%;
     height: 100%;
