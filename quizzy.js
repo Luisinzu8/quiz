@@ -1,3 +1,4 @@
+// timer begins when start buttom is clicked
 function startTimer(m,s)
       {
         document.getElementById('timer').innerHTML= m+":"+s;
