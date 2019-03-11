@@ -5,13 +5,20 @@ body{
     background-color: #000;
     text-align: center;
 }
-li {
+ul {
     list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
 }
-a{
+li {
+    float: right;
+}
+li a {
+    display: block;
+    padding: 8px;
     color: white;
     text-align: center;
-    margin-right: 40px;
 }
 a:hover {
     color: red;
@@ -19,7 +26,8 @@ a:hover {
 #quiz{
     width: 70%;
     height: 100%;
-    margin: 50px auto;
+    margin: auto;
+    margin-bottom: 200px;
     background: linear-gradient(35deg, #ccffff, #ffcccc);;
 }
 #timer {
@@ -44,7 +52,7 @@ a:hover {
     border-radius: 3px;
     padding: 20px;
     cursor: pointer;
-    margin-bottom: 20px;
+    margin-bottom: 200px;
 }
 #submit:hover{
     background-color: green;
